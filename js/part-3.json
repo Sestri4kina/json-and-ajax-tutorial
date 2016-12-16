@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Version control system",
+    "properties": "Git"
+  },
+  {
+    "name": "Package managers",
+    "properties": [
+      "npm",
+      "bower"
+    ]
+  },
+  {
+    "name": "Frontend bundlers",
+    "properties": [
+      "Webpack",
+      "Grunt",
+      "Gulp",
+      "Browserify"
+    ]
+  },
+  {
+    "name": "Other skills",
+    "properties": [
+      "testing",
+      "debugging",
+      "command line"
+    ]
+  },
+  {
+    "name": "Advanced topics",
+    "properties": [
+    "RESTful Services",
+    "APIs"
+    ]
+  }
+]

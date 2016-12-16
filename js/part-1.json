@@ -1,0 +1,18 @@
+[
+  {
+    "name" : "Languages",
+    "properties": ["HTML5", "CSS3", "JavaScript (aka: ECMAScript 6, ES6, JavaScript 2015)"]
+  },
+  {
+    "name": "JS library",
+    "properties": "jQuery"
+  },
+  {
+    "name": "FE framework",
+    "properties": "Bootstrap"
+  },
+  {
+    "name": "CSS preprocessor",
+    "properties": "SASS"
+  }
+]

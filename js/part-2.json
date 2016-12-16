@@ -1,0 +1,24 @@
+[
+  {
+    "name": "JS frameworks",
+    "properties": [
+      "React.js",
+      "AngularJS"
+    ]
+  },
+  {
+    "name": "Design",
+    "properties": [
+      "Responsive",
+      "Mobile"
+    ]
+  },
+  {
+    "name": "Web performance",
+    "properties": "Optimization"
+  },
+  {
+    "name": "Development",
+    "properties": "Cross-browser"
+  }
+]
