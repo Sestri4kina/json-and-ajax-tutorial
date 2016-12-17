@@ -9,9 +9,14 @@ btn.addEventListener('click', function(){
     var myRequest = new XMLHttpRequest();
     myRequest.open('GET', 'js/part-'+ clickCounter +'.json', true);
     myRequest.onload = function(){
-        var myData = JSON.parse(myRequest.responseText);
-        //console.log(myData[0]);
-        renderHTML(myData);
+        if (myRequest.status >= 200 && myRequest.status < 400) {
+            var myData = JSON.parse(myRequest.responseText);
+            //console.log(myData[0]);
+            renderHTML(myData);
+        } else {
+            alert('We connected to the server, but it returned an error.');
+        }
+
     };
     myRequest.send();
     clickCounter++;
