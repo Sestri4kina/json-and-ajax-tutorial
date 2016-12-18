@@ -7,12 +7,17 @@ window.onload = function(){
 
     http.onreadystatechange = function(){
         if (http.readyState == 4 && http.status == 200){
-            console.log(JSON.parse(http.response));
+            //console.log(JSON.parse(http.response));
         }
     };
 
     http.open('GET', 'js/part-1.json', true);
     http.send();
+
+    //jquery method
+    $.get('js/part-2.json', function(data){
+        console.log(data);
+    });
     console.log('test');
 
 };
